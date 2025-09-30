@@ -1,10 +1,10 @@
 import math
 #from scipy import stats
 
-a=0
-b=3
-p=3/5
-n=10
+a=5
+b=5
+p=5/8
+n=8
 total=0
 
 for i in range(a,b+1):
