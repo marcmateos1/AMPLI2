@@ -1,10 +1,10 @@
 import math
 #from scipy import stats
 
-a=5
-b=5
-p=5/8
-n=8
+a=0
+b=3
+p=3/5
+n=10
 total=0
 
 for i in range(a,b+1):
@@ -12,4 +12,4 @@ for i in range(a,b+1):
     probabilitat=math.comb(n,i)*(p**i)*((1-p)**(n-i))
     total=probabilitat+total
 
-print(probabilitat)
+print(total)
